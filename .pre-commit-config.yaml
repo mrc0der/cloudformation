@@ -1,9 +1,8 @@
-
-
-
+# aws
 repos:
--   repo: https://github.com/awslabs/cfn-python-lint
-    rev: v0.15.0 # The version of cfn-lint to use
+# cfn-lint
+-   repo: https://github.com/aws-cloudformation/cfn-lint
+    rev: v0.54.1  # The version of cfn-lint to use
     hooks:
     -   id: cfn-python-lint
         files: templates/.*\.(json|yml|yaml)$
